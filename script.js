@@ -31,7 +31,15 @@ function readLine() {
 
 function serviceLane(n, cases) {
     // Write your code here
-
+const result=[];
+for(let i=0; i<cases.length;i++){
+    const [start, end]=cases[i];
+    const segment=width.slice(start, end+1);
+    const min=Math.min(...segment);
+    result.push(min);
+}
+return result;
+}
     function main() {
         const ws = fs.createWriteStream(process.env.OUTPUT_PATH);
     
