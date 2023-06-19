@@ -1,0 +1,12 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 25px;
+}
+
+h1{
+    text-align: center;
+}
+
+#result{
+    margin: 25px;
+}
